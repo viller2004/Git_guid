@@ -71,7 +71,7 @@
 ## Схема команд для Git
 
 ```mermaid
-graph LR;
+graph TD;
   untracked -- "git add" --> staged;
   staged -- "git commit" --> tracked/comitted;
   tracked/comitted -- "git push" --> Done;
