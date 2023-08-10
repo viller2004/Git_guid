@@ -68,6 +68,16 @@
 Отправляет историю коммитов на ранее привязанный удаленный репозиторий:
 `git push`
 
+## Схема команд для Git
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged -- "git commit -m "комментарий к коммиту"" --> tracked/comitted;
+  tracked/comitted -- "git push" -- Done;
+
+```
+
 ## Работа с ветками
 
 `git branch` Показывает список веток и ту в которой мы находимся.
