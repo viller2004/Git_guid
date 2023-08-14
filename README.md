@@ -48,7 +48,15 @@
 <details>
 <summary>Синхронизация локального и удалённого репозиториев</summary>
 
-`git remote add origin https://github.com/YandexPracticum/first-project.git` (от англ. remote, «удалённый» + add, «добавить») — привяжи локальный репозиторий к удалённому с URL `https://github.com/YandexPracticum/first-project.git`;
+Команда `git clone` копирует проект на локальный компьютер.
+
+`git clone @` автоматически связывает локальный репозиторий по ссылке `@` с удалённым.
+
+@ `https://github.com/yandex-praktikum/git-clone-lesson` ссылка на репозиторий
+
+@ `git@github.com:yandex-praktikum/git-clone-lesson.git` SSH ссылка на репозиторий.
+
+`git remote add origin https://github.com/YandexPracticum/first-project.git` — привяжет локальный репозиторий к удалённому с URL `https://github.com/YandexPracticum/first-project.git`;
 
 `git remote -v` (от англ. verbose, «подробный») — проверь, что репозитории действительно связались;
 
