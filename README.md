@@ -147,7 +147,7 @@ https://practicum.yandex.ru/trainer/git-basics/lesson/78d6157b-a248-4c26-a2f8-5b
 
 `git restore <файл>`
 
-<details>
+</details>
 ## Просмотр изменений
 
 `git diff` — покажет изменения в «рабочей зоне», то есть в `modified`-файлах;
