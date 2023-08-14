@@ -149,7 +149,7 @@ https://practicum.yandex.ru/trainer/git-basics/lesson/78d6157b-a248-4c26-a2f8-5b
 
 </details>
 
-## Просмотр изменений
+## Команда **`git diff`**. Просмотр изменений
 
 `git diff` — покажет изменения в «рабочей зоне», то есть в `modified`-файлах;
 
@@ -188,14 +188,6 @@ https://practicum.yandex.ru/trainer/git-basics/lesson/78d6157b-a248-4c26-a2f8-5b
 В терминале выполняем команду `ssh -T -p 443 git@ssh.github.com`, если ответ положительный - можно использовать SSH.
 
 Переходим по ссылке [connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) и выполняем пошаговую инстукцию. SSH-ключ создается один раз для каждого компьютера с которого будем работать с GitHub.
-
-## Команда **`git diff`**
-
-Команда `git diff` сравнит последнюю закоммиченную версию файла с той, что находится в состоянии `modified`.
-
-Команда `git diff --staged` покажет изменения в `staged`-файлах относительно последних закоммиченных версий.
-
-Команда `git diff <коммит1> <коммит2>` сравнивает изменения в двух коммитах.
 
 ## Навигация в консоли
 
